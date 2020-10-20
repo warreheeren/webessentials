@@ -1,0 +1,24 @@
+table{
+    border: 2px solid black;
+    width: 100%;
+    vertical-align: center;
+    border-collapse: collapse;
+    font-family: "Roboto Light";
+    color: white;
+}
+th, td {
+    border: 1px solid black;
+}
+tfoot, tbody{
+    text-align: center;
+}
+thead, tfoot{
+    background-color: #27426d !important;
+
+}
+tr.middle-row:nth-child(odd){
+    background-color: #4f8cef;
+}
+tr.middle-row:nth-child(even){
+    background-color: #6facff;
+}

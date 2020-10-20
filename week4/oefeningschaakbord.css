@@ -1,0 +1,42 @@
+table{
+    border: 7px solid black;
+    border-collapse: collapse;
+    float: left;
+}
+td, tr{
+    border: solid black 2px;
+}
+
+td {
+    height: 110px;
+    width: 110px;}
+td img {
+    margin: auto;
+    display: block;
+}
+
+.wit, .zwart{
+    height: 110px;
+    width: 110px;
+    display: block;
+
+}
+.tekstbox{
+    float: right;
+    border: 2px solid black;
+    width: 25%;
+    margin: 0 20px;
+    height: 500px;
+    padding: 5px 15px;}
+tr:nth-child(even) td:nth-child(even) {
+    background: url(https://www.designstoel4u.be/media/catalog/product/cache/3/thumbnail/600x/17f82f742ffe127f42dca9de82fb58b1/w/i/wit_rond_m_3.jpg) white;
+}
+tr:nth-child(even) td:nth-child(odd) {
+    background: url(https://static.gamma.be/dam/125526/123) black;
+}
+tr:nth-child(odd) td:nth-child(even) {
+    background: url(https://static.gamma.be/dam/125526/123) black;
+}
+tr:nth-child(odd) td:nth-child(odd) {
+    background: url(https://www.designstoel4u.be/media/catalog/product/cache/3/thumbnail/600x/17f82f742ffe127f42dca9de82fb58b1/w/i/wit_rond_m_3.jpg) white;
+}

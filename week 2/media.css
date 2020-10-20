@@ -1,0 +1,29 @@
+*{
+    background-color: aqua;
+}
+
+ul{
+    color: blue;
+}
+ol{
+    color: red;
+    font-family: sans-serif, "Courier New";
+}
+.grijzeachtergrond{
+    background-color: grey;
+    font-family: "Courier New", Arial;
+    font-size: 30pt;
+}
+.border{
+    color: rosybrown;
+    font-size: 25pt;
+    font-family: Algerian;
+    text-align: center;
+    padding: 10px;
+    margin: auto;
+    border-style: dotted;
+    border-radius: 25%;
+    border-color: brown;
+
+
+}
